@@ -40,34 +40,55 @@
             font-size: 38;
             font-weight: thin;
         }
+
+        .fit-picture {
+          width: 300px;
+          height: auto;
+        }
+
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .divider {
+          width: 100%;
+          border: 1px solid #000;
+          margin-bottom: 20px;
+        }
       </style>
 </head>
 <body>
-    <h1>
-        Vooma Productions
-      </h1>
-      <h2>
-        Film-production-company
-      </h2>
-      <ul>
-        <li class="website">
-            website
-        </li>
-        <li class="email">
-            email
-        </li>
-        <li class="phone">
-            phone
-        </li>
-      </ul>
-      
-      <hr>
-      <h3>
-        More Info
-      </h3>
-      <img
-           class="fit-picture"
-           src="https://howtostartanllc.com/images/business-ideas/business-idea-images/film-production-company.jpg" width=300" />
-                                                                                                                              <h1>
+  <h1>
+    Vooma Productions
+  </h1>
+
+  <h2>
+    Film Production Company
+  </h2>
+
+  <ul>
+    <li class="website">
+        website
+    </li>
+    <li class="email">
+        email
+    </li>
+    <li class="phone">
+        phone
+    </li>
+  </ul>
+
+  <div class="container">
+
+    <hr class="divider">
+    <h3>
+      More Info
+    </h3>
+    <img src="film-production-company.jpg" alt="Film image" class="fit-picture"> 
+  </div>
 </body>
 </html>
